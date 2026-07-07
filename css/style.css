@@ -280,70 +280,58 @@ section{
 @media (max-width:768px){
 
     #opening{
-        padding:20px;
+        padding:15px;
         align-items:center;
     }
 
     .cover-card{
 
         width:100%;
+        max-height:95dvh;
 
-        padding:35px 22px;
+        overflow-y:auto;
 
-        border-radius:25px;
+        padding:24px 20px;
+
+        border-radius:22px;
     }
 
     .save-date{
-
-        font-size:11px;
-
-        letter-spacing:3px;
+        font-size:10px;
+        letter-spacing:2px;
     }
 
     .cover-card h1{
-
-        font-size:52px;
-
-        line-height:1;
+        font-size:42px;
+        margin:15px 0;
     }
 
     .line{
-
-        width:90px;
-
-        margin:20px auto 30px;
+        width:70px;
+        margin:15px auto 20px;
     }
 
     .cover-image{
-
-        width:220px;
-
-        height:290px;
+        width:180px;
+        height:230px;
     }
 
     .cover-text{
-
-        font-size:14px;
-
-        line-height:1.8;
-
-        margin:25px auto;
+        margin:18px auto;
+        font-size:13px;
+        line-height:1.6;
     }
 
     .event-date{
-
         font-size:14px;
-
-        padding:10px 20px;
+        margin-bottom:18px;
     }
 
     .guest-card{
-
-        padding:15px;
+        padding:12px;
     }
 
     .guest-card h3{
-
         font-size:18px;
     }
 
@@ -351,15 +339,16 @@ section{
 
         width:100%;
 
-        max-width:260px;
+        max-width:240px;
 
-        height:52px;
+        height:48px;
 
-        font-size:15px;
+        margin-top:18px;
+
+        font-size:14px;
     }
 
 }
-
 /* =========================
    HERO
 ========================= */
